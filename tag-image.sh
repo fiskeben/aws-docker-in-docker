@@ -4,11 +4,13 @@
 # This script will tag the "latest" image in a repository
 # with the supplied tag.
 #
-# The script takes two parameters:
+# The script takes three parameters:
 #
 # repo name: the name of the AWS ECR repo that holds the image
 # tag: the value to use as the tag
+# region: the AWS region of your registry
 #
+# All parameters are mandatory.
 
 set -e
 
